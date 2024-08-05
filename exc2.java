@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class exc2 {
     public static void main(String[] args) {
         // Usando try-with-resources para garantir que o Scanner seja fechado automaticamente
+        // Criando o Scanner para leitura do input do usuário
         try (Scanner scnr = new Scanner(System.in)) {
             // Solicita ao usuário que insira um número inteiro
             System.out.print("Choose an integer number: ");
