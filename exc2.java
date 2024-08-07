@@ -7,8 +7,7 @@ public class exc2 {
         try (Scanner scnr = new Scanner(System.in)) {
             // Solicita ao usuário que insira um número inteiro
             System.out.print("Choose an integer number: ");
-            int number = scnr.nextInt();
-            
+            int number = scnr.nextInt();          
             // Verifica se o número é par ou ímpar
             if (number % 2 == 0) {
                 System.out.println("The number " + number + " is even.");

@@ -4,10 +4,8 @@ public class exc4 {
         /* Escreva um programa em java que receba dois textos. Verifique se os dois
         textos são iguais e apresente o resultado em tela. Observe e analise os
         resultados. */
-
         // Criando o Scanner para leitura do input do usuário
         try(Scanner scnr = new Scanner(System.in)){
-
             System.out.println("Write a word: ");
             String txt1 = scnr.nextLine();
 
